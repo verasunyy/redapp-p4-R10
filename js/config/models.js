@@ -11,7 +11,12 @@ export const createFave = async (faveId) => {
 }
 
 export const deleteFave = async (faveId) => {
-  return await AsyncStorage.removeItem(`${faveId}`);
+  try {
+    await AsyncStorage.removeItem(`${faveId}`);
+    return true;
+  } catch (error) {
+    return new Error(error)
+  }
 }
 
 export const queryFaves = async () => {

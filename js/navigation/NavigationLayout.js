@@ -56,42 +56,48 @@ const FavesStack = createStackNavigator({
     })
   });
 
-export default createBottomTabNavigator({ Schedule: ScheduleStack, Map: MapStack, Faves: FavesStack, About: AboutStack }, {
-
-  defaultNavigationOptions: ({ navigation }) => ({
-    tabBarIcon: ({ focused, horizontal, tintColor }) => {
-      const { routeName } = navigation.state;
-      let IconComponent = Ionicons;
-      let iconName;
-      if (routeName === 'About') {
-        iconName = `ios-information-circle${focused ? '' : '-outline'}`;
-        // Sometimes we want to add badges to some icons. 
-        // You can check the implementation below.
-        // IconComponent = HomeIconWithBadge;
-      } else if (routeName === 'Map') {
-        iconName = `ios-map`;
-      } else if (routeName === "Faves") {
-        iconName = `ios-heart`;
-      } else if (routeName === "Schedule") {
-        iconName = `ios-calendar`;
-      }
-
-      // You can return any component that you like here!
-      return <IconComponent name={iconName} size={25} color={tintColor} />;
-    },
-  }),
-  tabBarOptions: {
-    activeTintColor: '#eee',
-    inactiveTintColor: '#999999',
-    labelStyle: {
-      fontSize: 10,
-      fontFamily: 'Montserrat'
-    },
-    style: {
-      backgroundColor: 'black'
-    }
+export default createBottomTabNavigator(
+  {
+    Schedule: ScheduleStack,
+    Map: MapStack,
+    Faves: FavesStack,
+    About: AboutStack
   },
-},
+  {
+    defaultNavigationOptions: ({ navigation }) => ({
+      tabBarIcon: ({ focused, horizontal, tintColor }) => {
+        const { routeName } = navigation.state;
+        let IconComponent = Ionicons;
+        let iconName;
+        if (routeName === 'About') {
+          iconName = `ios-information-circle${focused ? '' : '-outline'}`;
+          // Sometimes we want to add badges to some icons. 
+          // You can check the implementation below.
+          // IconComponent = HomeIconWithBadge;
+        } else if (routeName === 'Map') {
+          iconName = `ios-map`;
+        } else if (routeName === "Faves") {
+          iconName = `ios-heart`;
+        } else if (routeName === "Schedule") {
+          iconName = `ios-calendar`;
+        }
+
+        // You can return any component that you like here!
+        return <IconComponent name={iconName} size={25} color={tintColor} />;
+      },
+    }),
+    tabBarOptions: {
+      activeTintColor: '#eee',
+      inactiveTintColor: '#999999',
+      labelStyle: {
+        fontSize: 10,
+        fontFamily: 'Montserrat'
+      },
+      style: {
+        backgroundColor: 'black'
+      }
+    },
+  },
 )
 
 

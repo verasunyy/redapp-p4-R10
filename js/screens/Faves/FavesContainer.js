@@ -12,7 +12,28 @@ import {
 
 
 import Faves from './Faves'
+import FavesContext from '../../context/FavesContext';
+import { gql } from "apollo-boost";
+import { Query } from 'react-apollo';
 
+const GET_All_SESSIONS = gql`
+  {
+    allSessions{
+      id
+      title
+      startTime
+      location
+      description
+      speaker{
+        id
+        bio
+        image
+        name
+        url
+      }
+    }
+  }
+`;
 
 class FavesContainer extends Component {
   static navigationOptions = {
@@ -21,7 +42,31 @@ class FavesContainer extends Component {
   render() {
 
     return (
-      <Faves />
+      <FavesContext.Consumer>
+        {
+          ({ faveIds }) => {
+
+            if (faveIds.faveIds.length !== 0) {
+              return (
+                < Query query={GET_All_SESSIONS} >
+                  {({ loading, error, data }) => {
+                    if (loading) return <Text>loading...</Text>;
+                    if (error) return <Text>{error.message}</Text>;
+
+                    const favedSessions = data.allSessions.filter((session) => (
+                      faveIds.faveIds.find((faveId) => faveId === session.id)
+                    ))
+                    console.log(favedSessions)
+                    return (<Faves allFavedSessions={favedSessions} />);
+                  }
+                  }
+                </ Query>)
+            } else {
+              console.log(faveIds.faveIds)
+              return <Faves />
+            }
+          }}
+      </FavesContext.Consumer >
     );
   }
 }

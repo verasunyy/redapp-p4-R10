@@ -5,68 +5,39 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* r10Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* r10Tests.m */; };
+		072CF186FB074E5B917BFEEE /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1EC31933353419BA51203DA /* Fontisto.ttf */; };
+		0B9B54C7A0E147DD8B5B2F38 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEFA5D07C2ED4F78A9530FCA /* FontAwesome5_Regular.ttf */; };
+		0DFEA644BF0B401482A01947 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D780E2B70D7341A7B17581CE /* AntDesign.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1AE5191D332F4E01993AE82E /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87FBD53D1A1B455982F11881 /* Feather.ttf */; };
 		28818E48C354EE5072689637 /* libPods-r10Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9056091E8442E885C7055E89 /* libPods-r10Tests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* r10Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* r10Tests.m */; };
-		554CA12C8C556DEFB58E71E9 /* libPods-r10-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4A639400C71928BAAC75190 /* libPods-r10-tvOSTests.a */; };
-		DA89EB97B7B87F50D1D83449 /* libPods-r10.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 196FE94503E388E68DAE91D4 /* libPods-r10.a */; };
-		DCB7ED90DED0B9456FCF83F9 /* libPods-r10-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C6665CEC5077F3F3E3B6383 /* libPods-r10-tvOS.a */; };
-		0DFEA644BF0B401482A01947 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D780E2B70D7341A7B17581CE /* AntDesign.ttf */; };
-		A415289F88A148BCAC63B492 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4672AA25072B48F3B25063E0 /* Entypo.ttf */; };
-		A8B96956922A409C872AB470 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACD6C39D73D14E58922037C9 /* EvilIcons.ttf */; };
-		1AE5191D332F4E01993AE82E /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87FBD53D1A1B455982F11881 /* Feather.ttf */; };
-		74BE071FD98442368F7437BD /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6EC1E01D63464AECB0D4F1C5 /* FontAwesome.ttf */; };
-		901EAAE753404655A4F0209E /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E1698E7E10649FC889919E6 /* FontAwesome5_Brands.ttf */; };
-		0B9B54C7A0E147DD8B5B2F38 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEFA5D07C2ED4F78A9530FCA /* FontAwesome5_Regular.ttf */; };
-		C179578399AA4D7CB5F016D1 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64684AE942654B63B663263E /* FontAwesome5_Solid.ttf */; };
-		072CF186FB074E5B917BFEEE /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1EC31933353419BA51203DA /* Fontisto.ttf */; };
 		436EE2A8639C433E9D4723DE /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EAD9063CBC67447CB8708C99 /* Foundation.ttf */; };
 		4B43A528B3E1410E8C97B8C4 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00B36370CFAE4E688F06A288 /* Ionicons.ttf */; };
-		870C83A5D5C145E8815548A8 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7D0187EAECB49C28FA5038C /* MaterialCommunityIcons.ttf */; };
+		554CA12C8C556DEFB58E71E9 /* libPods-r10-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4A639400C71928BAAC75190 /* libPods-r10-tvOSTests.a */; };
+		56E8BC8B117940B09A4B2EC7 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F94DC1A57744E68AB000C6F /* Montserrat-Regular.ttf */; };
 		57366B04F411462F8D156F99 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85F10B77F4FB438EA4797A5B /* MaterialIcons.ttf */; };
 		63EFF13DC67D4805B98A6695 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0903807CE1374D8099A710F6 /* Octicons.ttf */; };
-		BF43BE91C342431E9D99B4ED /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1146C37E0EB84338A7491604 /* SimpleLineIcons.ttf */; };
-		A602DE1C604D422481653518 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCA2F8ED6DD544548EF76E38 /* Zocial.ttf */; };
+		74BE071FD98442368F7437BD /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6EC1E01D63464AECB0D4F1C5 /* FontAwesome.ttf */; };
 		868BA71F5435455F902653E0 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D85A20616294A7DBFFB80AF /* Montserrat-Light.ttf */; };
-		56E8BC8B117940B09A4B2EC7 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F94DC1A57744E68AB000C6F /* Montserrat-Regular.ttf */; };
-		1012CDA02AD94B11A56BA023 /* ANDROID-hdpi-landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B5C4AA2694E4AEF8C4903D6 /* ANDROID-hdpi-landscape.png */; };
-		577624CDC5CB463482C958CE /* ANDROID-hdpi-portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D483887C7B3498DB09A238D /* ANDROID-hdpi-portrait.png */; };
-		129FDFD95F1D4A2EB0B31A54 /* ANDROID-ldpi-landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EA95D60F1A4013BA86A095 /* ANDROID-ldpi-landscape.png */; };
-		1299D9B3ECA2481787150F66 /* ANDROID-ldpi-portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B59E0FE96D44FC287D07103 /* ANDROID-ldpi-portrait.png */; };
-		296FBD01F6DB49BABD11BB66 /* ANDROID-mdpi-landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 90BEEF2B0E7F4CA38AF418C8 /* ANDROID-mdpi-landscape.png */; };
-		156373F4A11941B5BF0209E1 /* ANDROID-mdpi-portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 5752758005B24F1EB75FC75A /* ANDROID-mdpi-portrait.png */; };
-		3FD377A0E81B4C1AACD8DAAE /* ANDROID-xhdpi-landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = E412BC327EEC449C99F29972 /* ANDROID-xhdpi-landscape.png */; };
-		3CEC38399AAF4D7B98CECA15 /* ANDROID-xhdpi-portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 47CAC8F4100F498098301D91 /* ANDROID-xhdpi-portrait.png */; };
-		E0F51F2EF9354019810E38E2 /* ANDROID-xxhdpi-landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = EA56B350EACA40CFAEA2AA85 /* ANDROID-xxhdpi-landscape.png */; };
-		FFA62AE7B34F422486D5A746 /* ANDROID-xxhdpi-portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = FC9DC215FFC94668B3C85B72 /* ANDROID-xxhdpi-portrait.png */; };
-		A08A87EAD2BD46FF9AAD130C /* ANDROID-xxxhdpi-landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = E9B99483E2E04197B3E8CBD9 /* ANDROID-xxxhdpi-landscape.png */; };
-		7604F06B776F4F238CAEF364 /* ANDROID-xxxhdpi-portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D9ADD7B6CD47B0BC7C22A3 /* ANDROID-xxxhdpi-portrait.png */; };
-		B10533783BDF4DA690944AE6 /* IOS-iPad-landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = A53292A731604520B3857D78 /* IOS-iPad-landscape.png */; };
-		42DD73077B83454EB874069A /* IOS-iPad-landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 792D8F82E0574CF3A6980A96 /* IOS-iPad-landscape@2x.png */; };
-		18B138DA9985451AA60946A0 /* IOS-iPad-portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 42E59A4703564DE7A86E28A7 /* IOS-iPad-portrait.png */; };
-		85944613CE1C44ABB889FBA7 /* IOS-iPad-portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E44748BB6164AB3A935E5C9 /* IOS-iPad-portrait@2x.png */; };
-		ACF26414612D4596A342B40E /* IOS-iPadPro-landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAF2A418A669483E859F49B8 /* IOS-iPadPro-landscape@2x.png */; };
-		512665C17E004015BF0AE843 /* IOS-iPadPro-portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05D5E2A0A4984AD785EB15EF /* IOS-iPadPro-portrait@2x.png */; };
-		5FED8E2373C14F53A8D73189 /* IOS-iPhone-landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E4563E6319F4E3BB7636602 /* IOS-iPhone-landscape.png */; };
-		405AA08084B4472CB5A144CF /* IOS-iPhone-landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFE5514BADBF40C7BD2C24C8 /* IOS-iPhone-landscape@2x.png */; };
-		9A087CCD7E364DD294E117BD /* IOS-iPhone-portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = E1543BC277FB4F089E95A8F4 /* IOS-iPhone-portrait.png */; };
-		22DFC9B3DF6848D598FFF717 /* IOS-iPhone-portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B3251968B240B586A4B8F8 /* IOS-iPhone-portrait@2x.png */; };
-		8A37D9771DA24C34B2A3B1E9 /* IOS-iPhone5-landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B6899665CDE449CBFE6A683 /* IOS-iPhone5-landscape@2x.png */; };
-		B11E077C0ADB433E80AF5DE5 /* IOS-iPhone5-portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FA0B5BCA3C0403EA3F14435 /* IOS-iPhone5-portrait@2x.png */; };
-		8B744988E72C487A80D1F197 /* IOS-iPhone6-7-8-landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA23F4789884B9FBC43682F /* IOS-iPhone6-7-8-landscape@2x.png */; };
-		83650159BAEA4472B91B98D9 /* IOS-iPhone6-7-8-portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF69BA3D21F74588BC3AB0A9 /* IOS-iPhone6-7-8-portrait@2x.png */; };
-		66A931F2397949679CD62158 /* IOS-iPhone6-7plus-landscape@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A69C65CA8784C9B9FE0A6A5 /* IOS-iPhone6-7plus-landscape@3x.png */; };
-		37A0FD7F326145AC96549EF9 /* IOS-iPhone6-7plus-portrait@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11BA60EE051A402580BCDED1 /* IOS-iPhone6-7plus-portrait@3x.png */; };
-		8A662C2F1DE14580969738B7 /* IOS-iPhoneX-landscape@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7AA6AD25239478AAB8598A5 /* IOS-iPhoneX-landscape@3x.png */; };
-		244820739AF04D2BB509E229 /* IOS-iPhoneX-portrait@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9F5F53E0D94201A4013B63 /* IOS-iPhoneX-portrait@3x.png */; };
+		870C83A5D5C145E8815548A8 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7D0187EAECB49C28FA5038C /* MaterialCommunityIcons.ttf */; };
+		901EAAE753404655A4F0209E /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E1698E7E10649FC889919E6 /* FontAwesome5_Brands.ttf */; };
+		A415289F88A148BCAC63B492 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4672AA25072B48F3B25063E0 /* Entypo.ttf */; };
+		A602DE1C604D422481653518 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCA2F8ED6DD544548EF76E38 /* Zocial.ttf */; };
+		A8B96956922A409C872AB470 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACD6C39D73D14E58922037C9 /* EvilIcons.ttf */; };
+		BF43BE91C342431E9D99B4ED /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1146C37E0EB84338A7491604 /* SimpleLineIcons.ttf */; };
+		C179578399AA4D7CB5F016D1 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64684AE942654B63B663263E /* FontAwesome5_Solid.ttf */; };
+		DA89EB97B7B87F50D1D83449 /* libPods-r10.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 196FE94503E388E68DAE91D4 /* libPods-r10.a */; };
+		DCB7ED90DED0B9456FCF83F9 /* libPods-r10-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C6665CEC5077F3F3E3B6383 /* libPods-r10-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,10 +59,16 @@
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00B36370CFAE4E688F06A288 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* r10Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = r10Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* r10Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = r10Tests.m; sourceTree = "<group>"; };
+		05D5E2A0A4984AD785EB15EF /* IOS-iPadPro-portrait@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IOS-iPadPro-portrait@2x.png"; path = "../js/assets/images/logoImage/IOS-iPadPro-portrait@2x.png"; sourceTree = "<group>"; };
+		0903807CE1374D8099A710F6 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		0E4563E6319F4E3BB7636602 /* IOS-iPhone-landscape.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IOS-iPhone-landscape.png"; path = "../js/assets/images/logoImage/IOS-iPhone-landscape.png"; sourceTree = "<group>"; };
 		0F595C6FE7BACA3A9719D2E4 /* Pods-r10-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-r10-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-r10-tvOSTests/Pods-r10-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		1146C37E0EB84338A7491604 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		11BA60EE051A402580BCDED1 /* IOS-iPhone6-7plus-portrait@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IOS-iPhone6-7plus-portrait@3x.png"; path = "../js/assets/images/logoImage/IOS-iPhone6-7plus-portrait@3x.png"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* r10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = r10.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = r10/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = r10/AppDelegate.m; sourceTree = "<group>"; };
@@ -99,69 +76,63 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = r10/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = r10/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = r10/main.m; sourceTree = "<group>"; };
+		18B3251968B240B586A4B8F8 /* IOS-iPhone-portrait@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IOS-iPhone-portrait@2x.png"; path = "../js/assets/images/logoImage/IOS-iPhone-portrait@2x.png"; sourceTree = "<group>"; };
 		196FE94503E388E68DAE91D4 /* libPods-r10.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-r10.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A0E0D2DE1E73006429044C0 /* Pods-r10Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-r10Tests.debug.xcconfig"; path = "Target Support Files/Pods-r10Tests/Pods-r10Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2C6665CEC5077F3F3E3B6383 /* libPods-r10-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-r10-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* r10-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "r10-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* r10-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "r10-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F94DC1A57744E68AB000C6F /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Regular.ttf"; path = "../js/assets/fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		3D483887C7B3498DB09A238D /* ANDROID-hdpi-portrait.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "ANDROID-hdpi-portrait.png"; path = "../js/assets/images/logoImage/ANDROID-hdpi-portrait.png"; sourceTree = "<group>"; };
+		3E44748BB6164AB3A935E5C9 /* IOS-iPad-portrait@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IOS-iPad-portrait@2x.png"; path = "../js/assets/images/logoImage/IOS-iPad-portrait@2x.png"; sourceTree = "<group>"; };
+		42E59A4703564DE7A86E28A7 /* IOS-iPad-portrait.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IOS-iPad-portrait.png"; path = "../js/assets/images/logoImage/IOS-iPad-portrait.png"; sourceTree = "<group>"; };
+		4672AA25072B48F3B25063E0 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		47CAC8F4100F498098301D91 /* ANDROID-xhdpi-portrait.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "ANDROID-xhdpi-portrait.png"; path = "../js/assets/images/logoImage/ANDROID-xhdpi-portrait.png"; sourceTree = "<group>"; };
 		51AD08D01CA689FF5C288BAA /* Pods-r10-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-r10-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-r10-tvOSTests/Pods-r10-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5752758005B24F1EB75FC75A /* ANDROID-mdpi-portrait.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "ANDROID-mdpi-portrait.png"; path = "../js/assets/images/logoImage/ANDROID-mdpi-portrait.png"; sourceTree = "<group>"; };
+		5B5C4AA2694E4AEF8C4903D6 /* ANDROID-hdpi-landscape.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "ANDROID-hdpi-landscape.png"; path = "../js/assets/images/logoImage/ANDROID-hdpi-landscape.png"; sourceTree = "<group>"; };
+		5D85A20616294A7DBFFB80AF /* Montserrat-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Light.ttf"; path = "../js/assets/fonts/Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		64684AE942654B63B663263E /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		6A69C65CA8784C9B9FE0A6A5 /* IOS-iPhone6-7plus-landscape@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IOS-iPhone6-7plus-landscape@3x.png"; path = "../js/assets/images/logoImage/IOS-iPhone6-7plus-landscape@3x.png"; sourceTree = "<group>"; };
+		6E1698E7E10649FC889919E6 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		6EC1E01D63464AECB0D4F1C5 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		792D8F82E0574CF3A6980A96 /* IOS-iPad-landscape@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IOS-iPad-landscape@2x.png"; path = "../js/assets/images/logoImage/IOS-iPad-landscape@2x.png"; sourceTree = "<group>"; };
+		7B59E0FE96D44FC287D07103 /* ANDROID-ldpi-portrait.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "ANDROID-ldpi-portrait.png"; path = "../js/assets/images/logoImage/ANDROID-ldpi-portrait.png"; sourceTree = "<group>"; };
+		85F10B77F4FB438EA4797A5B /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		87FBD53D1A1B455982F11881 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		8FA8AE8568EFF172F37F0294 /* Pods-r10-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-r10-tvOS.release.xcconfig"; path = "Target Support Files/Pods-r10-tvOS/Pods-r10-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		9056091E8442E885C7055E89 /* libPods-r10Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-r10Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90BEEF2B0E7F4CA38AF418C8 /* ANDROID-mdpi-landscape.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "ANDROID-mdpi-landscape.png"; path = "../js/assets/images/logoImage/ANDROID-mdpi-landscape.png"; sourceTree = "<group>"; };
 		96198ACB747B1DD9B82D3A99 /* Pods-r10Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-r10Tests.release.xcconfig"; path = "Target Support Files/Pods-r10Tests/Pods-r10Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9B6899665CDE449CBFE6A683 /* IOS-iPhone5-landscape@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IOS-iPhone5-landscape@2x.png"; path = "../js/assets/images/logoImage/IOS-iPhone5-landscape@2x.png"; sourceTree = "<group>"; };
+		9FA0B5BCA3C0403EA3F14435 /* IOS-iPhone5-portrait@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IOS-iPhone5-portrait@2x.png"; path = "../js/assets/images/logoImage/IOS-iPhone5-portrait@2x.png"; sourceTree = "<group>"; };
 		A2B33086BE3200569D42C79C /* Pods-r10.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-r10.release.xcconfig"; path = "Target Support Files/Pods-r10/Pods-r10.release.xcconfig"; sourceTree = "<group>"; };
 		A4D5B40DB5DE5AC7AD313125 /* Pods-r10.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-r10.debug.xcconfig"; path = "Target Support Files/Pods-r10/Pods-r10.debug.xcconfig"; sourceTree = "<group>"; };
+		A53292A731604520B3857D78 /* IOS-iPad-landscape.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IOS-iPad-landscape.png"; path = "../js/assets/images/logoImage/IOS-iPad-landscape.png"; sourceTree = "<group>"; };
+		A7D0187EAECB49C28FA5038C /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		ACD6C39D73D14E58922037C9 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		AFA23F4789884B9FBC43682F /* IOS-iPhone6-7-8-landscape@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IOS-iPhone6-7-8-landscape@2x.png"; path = "../js/assets/images/logoImage/IOS-iPhone6-7-8-landscape@2x.png"; sourceTree = "<group>"; };
+		BAF2A418A669483E859F49B8 /* IOS-iPadPro-landscape@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IOS-iPadPro-landscape@2x.png"; path = "../js/assets/images/logoImage/IOS-iPadPro-landscape@2x.png"; sourceTree = "<group>"; };
+		BCA2F8ED6DD544548EF76E38 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		BF9F5F53E0D94201A4013B63 /* IOS-iPhoneX-portrait@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IOS-iPhoneX-portrait@3x.png"; path = "../js/assets/images/logoImage/IOS-iPhoneX-portrait@3x.png"; sourceTree = "<group>"; };
+		BFE5514BADBF40C7BD2C24C8 /* IOS-iPhone-landscape@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IOS-iPhone-landscape@2x.png"; path = "../js/assets/images/logoImage/IOS-iPhone-landscape@2x.png"; sourceTree = "<group>"; };
+		CEFA5D07C2ED4F78A9530FCA /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		D0D9ADD7B6CD47B0BC7C22A3 /* ANDROID-xxxhdpi-portrait.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "ANDROID-xxxhdpi-portrait.png"; path = "../js/assets/images/logoImage/ANDROID-xxxhdpi-portrait.png"; sourceTree = "<group>"; };
+		D0EA95D60F1A4013BA86A095 /* ANDROID-ldpi-landscape.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "ANDROID-ldpi-landscape.png"; path = "../js/assets/images/logoImage/ANDROID-ldpi-landscape.png"; sourceTree = "<group>"; };
 		D4A639400C71928BAAC75190 /* libPods-r10-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-r10-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D780E2B70D7341A7B17581CE /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		DF69BA3D21F74588BC3AB0A9 /* IOS-iPhone6-7-8-portrait@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IOS-iPhone6-7-8-portrait@2x.png"; path = "../js/assets/images/logoImage/IOS-iPhone6-7-8-portrait@2x.png"; sourceTree = "<group>"; };
 		E018AE5BFEE81B162EEC0B17 /* Pods-r10-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-r10-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-r10-tvOS/Pods-r10-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		E1543BC277FB4F089E95A8F4 /* IOS-iPhone-portrait.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IOS-iPhone-portrait.png"; path = "../js/assets/images/logoImage/IOS-iPhone-portrait.png"; sourceTree = "<group>"; };
+		E1EC31933353419BA51203DA /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		E412BC327EEC449C99F29972 /* ANDROID-xhdpi-landscape.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "ANDROID-xhdpi-landscape.png"; path = "../js/assets/images/logoImage/ANDROID-xhdpi-landscape.png"; sourceTree = "<group>"; };
+		E7AA6AD25239478AAB8598A5 /* IOS-iPhoneX-landscape@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IOS-iPhoneX-landscape@3x.png"; path = "../js/assets/images/logoImage/IOS-iPhoneX-landscape@3x.png"; sourceTree = "<group>"; };
+		E9B99483E2E04197B3E8CBD9 /* ANDROID-xxxhdpi-landscape.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "ANDROID-xxxhdpi-landscape.png"; path = "../js/assets/images/logoImage/ANDROID-xxxhdpi-landscape.png"; sourceTree = "<group>"; };
+		EA56B350EACA40CFAEA2AA85 /* ANDROID-xxhdpi-landscape.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "ANDROID-xxhdpi-landscape.png"; path = "../js/assets/images/logoImage/ANDROID-xxhdpi-landscape.png"; sourceTree = "<group>"; };
+		EAD9063CBC67447CB8708C99 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		D780E2B70D7341A7B17581CE /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		4672AA25072B48F3B25063E0 /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		ACD6C39D73D14E58922037C9 /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		87FBD53D1A1B455982F11881 /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		6EC1E01D63464AECB0D4F1C5 /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		6E1698E7E10649FC889919E6 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Brands.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		CEFA5D07C2ED4F78A9530FCA /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Regular.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		64684AE942654B63B663263E /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Solid.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E1EC31933353419BA51203DA /* Fontisto.ttf */ = {isa = PBXFileReference; name = "Fontisto.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		EAD9063CBC67447CB8708C99 /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		00B36370CFAE4E688F06A288 /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A7D0187EAECB49C28FA5038C /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		85F10B77F4FB438EA4797A5B /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0903807CE1374D8099A710F6 /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		1146C37E0EB84338A7491604 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		BCA2F8ED6DD544548EF76E38 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5D85A20616294A7DBFFB80AF /* Montserrat-Light.ttf */ = {isa = PBXFileReference; name = "Montserrat-Light.ttf"; path = "../js/assets/fonts/Montserrat-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2F94DC1A57744E68AB000C6F /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; name = "Montserrat-Regular.ttf"; path = "../js/assets/fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5B5C4AA2694E4AEF8C4903D6 /* ANDROID-hdpi-landscape.png */ = {isa = PBXFileReference; name = "ANDROID-hdpi-landscape.png"; path = "../js/assets/images/logoImage/ANDROID-hdpi-landscape.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		3D483887C7B3498DB09A238D /* ANDROID-hdpi-portrait.png */ = {isa = PBXFileReference; name = "ANDROID-hdpi-portrait.png"; path = "../js/assets/images/logoImage/ANDROID-hdpi-portrait.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		D0EA95D60F1A4013BA86A095 /* ANDROID-ldpi-landscape.png */ = {isa = PBXFileReference; name = "ANDROID-ldpi-landscape.png"; path = "../js/assets/images/logoImage/ANDROID-ldpi-landscape.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		7B59E0FE96D44FC287D07103 /* ANDROID-ldpi-portrait.png */ = {isa = PBXFileReference; name = "ANDROID-ldpi-portrait.png"; path = "../js/assets/images/logoImage/ANDROID-ldpi-portrait.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		90BEEF2B0E7F4CA38AF418C8 /* ANDROID-mdpi-landscape.png */ = {isa = PBXFileReference; name = "ANDROID-mdpi-landscape.png"; path = "../js/assets/images/logoImage/ANDROID-mdpi-landscape.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5752758005B24F1EB75FC75A /* ANDROID-mdpi-portrait.png */ = {isa = PBXFileReference; name = "ANDROID-mdpi-portrait.png"; path = "../js/assets/images/logoImage/ANDROID-mdpi-portrait.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E412BC327EEC449C99F29972 /* ANDROID-xhdpi-landscape.png */ = {isa = PBXFileReference; name = "ANDROID-xhdpi-landscape.png"; path = "../js/assets/images/logoImage/ANDROID-xhdpi-landscape.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		47CAC8F4100F498098301D91 /* ANDROID-xhdpi-portrait.png */ = {isa = PBXFileReference; name = "ANDROID-xhdpi-portrait.png"; path = "../js/assets/images/logoImage/ANDROID-xhdpi-portrait.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		EA56B350EACA40CFAEA2AA85 /* ANDROID-xxhdpi-landscape.png */ = {isa = PBXFileReference; name = "ANDROID-xxhdpi-landscape.png"; path = "../js/assets/images/logoImage/ANDROID-xxhdpi-landscape.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		FC9DC215FFC94668B3C85B72 /* ANDROID-xxhdpi-portrait.png */ = {isa = PBXFileReference; name = "ANDROID-xxhdpi-portrait.png"; path = "../js/assets/images/logoImage/ANDROID-xxhdpi-portrait.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E9B99483E2E04197B3E8CBD9 /* ANDROID-xxxhdpi-landscape.png */ = {isa = PBXFileReference; name = "ANDROID-xxxhdpi-landscape.png"; path = "../js/assets/images/logoImage/ANDROID-xxxhdpi-landscape.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		D0D9ADD7B6CD47B0BC7C22A3 /* ANDROID-xxxhdpi-portrait.png */ = {isa = PBXFileReference; name = "ANDROID-xxxhdpi-portrait.png"; path = "../js/assets/images/logoImage/ANDROID-xxxhdpi-portrait.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A53292A731604520B3857D78 /* IOS-iPad-landscape.png */ = {isa = PBXFileReference; name = "IOS-iPad-landscape.png"; path = "../js/assets/images/logoImage/IOS-iPad-landscape.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		792D8F82E0574CF3A6980A96 /* IOS-iPad-landscape@2x.png */ = {isa = PBXFileReference; name = "IOS-iPad-landscape@2x.png"; path = "../js/assets/images/logoImage/IOS-iPad-landscape@2x.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		42E59A4703564DE7A86E28A7 /* IOS-iPad-portrait.png */ = {isa = PBXFileReference; name = "IOS-iPad-portrait.png"; path = "../js/assets/images/logoImage/IOS-iPad-portrait.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		3E44748BB6164AB3A935E5C9 /* IOS-iPad-portrait@2x.png */ = {isa = PBXFileReference; name = "IOS-iPad-portrait@2x.png"; path = "../js/assets/images/logoImage/IOS-iPad-portrait@2x.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		BAF2A418A669483E859F49B8 /* IOS-iPadPro-landscape@2x.png */ = {isa = PBXFileReference; name = "IOS-iPadPro-landscape@2x.png"; path = "../js/assets/images/logoImage/IOS-iPadPro-landscape@2x.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		05D5E2A0A4984AD785EB15EF /* IOS-iPadPro-portrait@2x.png */ = {isa = PBXFileReference; name = "IOS-iPadPro-portrait@2x.png"; path = "../js/assets/images/logoImage/IOS-iPadPro-portrait@2x.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0E4563E6319F4E3BB7636602 /* IOS-iPhone-landscape.png */ = {isa = PBXFileReference; name = "IOS-iPhone-landscape.png"; path = "../js/assets/images/logoImage/IOS-iPhone-landscape.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		BFE5514BADBF40C7BD2C24C8 /* IOS-iPhone-landscape@2x.png */ = {isa = PBXFileReference; name = "IOS-iPhone-landscape@2x.png"; path = "../js/assets/images/logoImage/IOS-iPhone-landscape@2x.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E1543BC277FB4F089E95A8F4 /* IOS-iPhone-portrait.png */ = {isa = PBXFileReference; name = "IOS-iPhone-portrait.png"; path = "../js/assets/images/logoImage/IOS-iPhone-portrait.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		18B3251968B240B586A4B8F8 /* IOS-iPhone-portrait@2x.png */ = {isa = PBXFileReference; name = "IOS-iPhone-portrait@2x.png"; path = "../js/assets/images/logoImage/IOS-iPhone-portrait@2x.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9B6899665CDE449CBFE6A683 /* IOS-iPhone5-landscape@2x.png */ = {isa = PBXFileReference; name = "IOS-iPhone5-landscape@2x.png"; path = "../js/assets/images/logoImage/IOS-iPhone5-landscape@2x.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9FA0B5BCA3C0403EA3F14435 /* IOS-iPhone5-portrait@2x.png */ = {isa = PBXFileReference; name = "IOS-iPhone5-portrait@2x.png"; path = "../js/assets/images/logoImage/IOS-iPhone5-portrait@2x.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		AFA23F4789884B9FBC43682F /* IOS-iPhone6-7-8-landscape@2x.png */ = {isa = PBXFileReference; name = "IOS-iPhone6-7-8-landscape@2x.png"; path = "../js/assets/images/logoImage/IOS-iPhone6-7-8-landscape@2x.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		DF69BA3D21F74588BC3AB0A9 /* IOS-iPhone6-7-8-portrait@2x.png */ = {isa = PBXFileReference; name = "IOS-iPhone6-7-8-portrait@2x.png"; path = "../js/assets/images/logoImage/IOS-iPhone6-7-8-portrait@2x.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		6A69C65CA8784C9B9FE0A6A5 /* IOS-iPhone6-7plus-landscape@3x.png */ = {isa = PBXFileReference; name = "IOS-iPhone6-7plus-landscape@3x.png"; path = "../js/assets/images/logoImage/IOS-iPhone6-7plus-landscape@3x.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		11BA60EE051A402580BCDED1 /* IOS-iPhone6-7plus-portrait@3x.png */ = {isa = PBXFileReference; name = "IOS-iPhone6-7plus-portrait@3x.png"; path = "../js/assets/images/logoImage/IOS-iPhone6-7plus-portrait@3x.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E7AA6AD25239478AAB8598A5 /* IOS-iPhoneX-landscape@3x.png */ = {isa = PBXFileReference; name = "IOS-iPhoneX-landscape@3x.png"; path = "../js/assets/images/logoImage/IOS-iPhoneX-landscape@3x.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		BF9F5F53E0D94201A4013B63 /* IOS-iPhoneX-portrait@3x.png */ = {isa = PBXFileReference; name = "IOS-iPhoneX-portrait@3x.png"; path = "../js/assets/images/logoImage/IOS-iPhoneX-portrait@3x.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FC9DC215FFC94668B3C85B72 /* ANDROID-xxhdpi-portrait.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "ANDROID-xxhdpi-portrait.png"; path = "../js/assets/images/logoImage/ANDROID-xxhdpi-portrait.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -278,24 +249,8 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DF1204E8A2E4E3B4CC599D59 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A4D5B40DB5DE5AC7AD313125 /* Pods-r10.debug.xcconfig */,
-				A2B33086BE3200569D42C79C /* Pods-r10.release.xcconfig */,
-				E018AE5BFEE81B162EEC0B17 /* Pods-r10-tvOS.debug.xcconfig */,
-				8FA8AE8568EFF172F37F0294 /* Pods-r10-tvOS.release.xcconfig */,
-				51AD08D01CA689FF5C288BAA /* Pods-r10-tvOSTests.debug.xcconfig */,
-				0F595C6FE7BACA3A9719D2E4 /* Pods-r10-tvOSTests.release.xcconfig */,
-				2A0E0D2DE1E73006429044C0 /* Pods-r10Tests.debug.xcconfig */,
-				96198ACB747B1DD9B82D3A99 /* Pods-r10Tests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		D5C524AADDC14F78A70A544D /* Resources */ = {
-			isa = "PBXGroup";
+			isa = PBXGroup;
 			children = (
 				D780E2B70D7341A7B17581CE /* AntDesign.ttf */,
 				4672AA25072B48F3B25063E0 /* Entypo.ttf */,
@@ -348,7 +303,21 @@
 			);
 			name = Resources;
 			sourceTree = "<group>";
-			path = "";
+		};
+		DF1204E8A2E4E3B4CC599D59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4D5B40DB5DE5AC7AD313125 /* Pods-r10.debug.xcconfig */,
+				A2B33086BE3200569D42C79C /* Pods-r10.release.xcconfig */,
+				E018AE5BFEE81B162EEC0B17 /* Pods-r10-tvOS.debug.xcconfig */,
+				8FA8AE8568EFF172F37F0294 /* Pods-r10-tvOS.release.xcconfig */,
+				51AD08D01CA689FF5C288BAA /* Pods-r10-tvOSTests.debug.xcconfig */,
+				0F595C6FE7BACA3A9719D2E4 /* Pods-r10-tvOSTests.release.xcconfig */,
+				2A0E0D2DE1E73006429044C0 /* Pods-r10Tests.debug.xcconfig */,
+				96198ACB747B1DD9B82D3A99 /* Pods-r10Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -461,6 +430,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -509,36 +479,6 @@
 				A602DE1C604D422481653518 /* Zocial.ttf in Resources */,
 				868BA71F5435455F902653E0 /* Montserrat-Light.ttf in Resources */,
 				56E8BC8B117940B09A4B2EC7 /* Montserrat-Regular.ttf in Resources */,
-				1012CDA02AD94B11A56BA023 /* ANDROID-hdpi-landscape.png in Resources */,
-				577624CDC5CB463482C958CE /* ANDROID-hdpi-portrait.png in Resources */,
-				129FDFD95F1D4A2EB0B31A54 /* ANDROID-ldpi-landscape.png in Resources */,
-				1299D9B3ECA2481787150F66 /* ANDROID-ldpi-portrait.png in Resources */,
-				296FBD01F6DB49BABD11BB66 /* ANDROID-mdpi-landscape.png in Resources */,
-				156373F4A11941B5BF0209E1 /* ANDROID-mdpi-portrait.png in Resources */,
-				3FD377A0E81B4C1AACD8DAAE /* ANDROID-xhdpi-landscape.png in Resources */,
-				3CEC38399AAF4D7B98CECA15 /* ANDROID-xhdpi-portrait.png in Resources */,
-				E0F51F2EF9354019810E38E2 /* ANDROID-xxhdpi-landscape.png in Resources */,
-				FFA62AE7B34F422486D5A746 /* ANDROID-xxhdpi-portrait.png in Resources */,
-				A08A87EAD2BD46FF9AAD130C /* ANDROID-xxxhdpi-landscape.png in Resources */,
-				7604F06B776F4F238CAEF364 /* ANDROID-xxxhdpi-portrait.png in Resources */,
-				B10533783BDF4DA690944AE6 /* IOS-iPad-landscape.png in Resources */,
-				42DD73077B83454EB874069A /* IOS-iPad-landscape@2x.png in Resources */,
-				18B138DA9985451AA60946A0 /* IOS-iPad-portrait.png in Resources */,
-				85944613CE1C44ABB889FBA7 /* IOS-iPad-portrait@2x.png in Resources */,
-				ACF26414612D4596A342B40E /* IOS-iPadPro-landscape@2x.png in Resources */,
-				512665C17E004015BF0AE843 /* IOS-iPadPro-portrait@2x.png in Resources */,
-				5FED8E2373C14F53A8D73189 /* IOS-iPhone-landscape.png in Resources */,
-				405AA08084B4472CB5A144CF /* IOS-iPhone-landscape@2x.png in Resources */,
-				9A087CCD7E364DD294E117BD /* IOS-iPhone-portrait.png in Resources */,
-				22DFC9B3DF6848D598FFF717 /* IOS-iPhone-portrait@2x.png in Resources */,
-				8A37D9771DA24C34B2A3B1E9 /* IOS-iPhone5-landscape@2x.png in Resources */,
-				B11E077C0ADB433E80AF5DE5 /* IOS-iPhone5-portrait@2x.png in Resources */,
-				8B744988E72C487A80D1F197 /* IOS-iPhone6-7-8-landscape@2x.png in Resources */,
-				83650159BAEA4472B91B98D9 /* IOS-iPhone6-7-8-portrait@2x.png in Resources */,
-				66A931F2397949679CD62158 /* IOS-iPhone6-7plus-landscape@3x.png in Resources */,
-				37A0FD7F326145AC96549EF9 /* IOS-iPhone6-7plus-portrait@3x.png in Resources */,
-				8A662C2F1DE14580969738B7 /* IOS-iPhoneX-landscape@3x.png in Resources */,
-				244820739AF04D2BB509E229 /* IOS-iPhoneX-portrait@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

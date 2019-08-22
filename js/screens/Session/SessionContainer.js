@@ -25,9 +25,10 @@ class SessionContainer extends Component {
   render() {
     const { navigation } = this.props;
     const session = navigation.getParam('session', {});
-    const speaker = navigation.getParam('speaker', {})
+    const speaker = navigation.getParam('speaker', {});
+    const isFaved = navigation.getParam('isFaved', false);
     return (
-      <Session session={session} speaker={speaker} />
+      <Session session={session} speaker={speaker} isFaved={isFaved} />
     );
   }
 }

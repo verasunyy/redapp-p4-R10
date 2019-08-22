@@ -14,7 +14,7 @@ import styles from './styles'
 
 const ConductTitle = ({ conductTitle }) => {
   return (
-    <Text>{conductTitle}</Text>
+    <Text>+   {conductTitle}</Text>
   )
 }
 const ConductDescription = ({ conductDescription }) => {
@@ -37,7 +37,6 @@ const About = ({ allConducts }) => {
           <ConductDescription conductDescription={conduct.description} />
         </View>
       ))}
-      <Text>{allConducts[0].title}</Text>
     </ScrollView>
   )
 }

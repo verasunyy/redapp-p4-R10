@@ -15,16 +15,27 @@ import {
 import styles from './styles';
 import { withNavigation } from 'react-navigation';
 import FavesContext from '../../context/FavesContext';
+import Icon from 'react-native-vector-icons/FontAwesome';
 
-const Session = ({ session, speaker, navigation, context }) => {
+
+
+const Session = ({ session, speaker, navigation, isFaved }) => {
+  const removeFaveOnPress = (id, removeFaveSession) => {
+    removeFaveSession(id);
+    isFaved = false;
+  }
+  const addFavesOnPress = (id, createFaveSession) => {
+    createFaveSession(id);
+    isFaved = true;
+  }
   return (
     <FavesContext.Consumer>
       {
-        ({ faveIds, createFaveSession, removeFaveSession }) => (
+        ({ createFaveSession, removeFaveSession }) => (
           <View>
-            {
-              console.log(faveIds)}
+            {/* {console.log(isFaved)} */}
             <Text>{session.location}</Text>
+            {(isFaved) ? <Icon name="heart" size={30} color="#900" /> : null}
             <Text>{session.title}</Text>
             <Text>{session.time}</Text>
             <Text>{session.description}</Text>
@@ -40,22 +51,25 @@ const Session = ({ session, speaker, navigation, context }) => {
               </View>
             </TouchableOpacity>
 
-            <View>
-              <Button
-                onPress={() => createFaveSession(session.id)}
-                title="Add To Faves"
-                color="#841584"
-                accessibilityLabel="Add to Faves"
-              />
-            </View>
-            <View>
-              <Button
-                onPress={() => removeFaveSession(session.sessionId)}
-                title="Remove From Faves"
-                color="#841584"
-                accessibilityLabel="Remove From Faves"
-              />
-            </View>
+            {
+              (isFaved) ? <View>
+                <Button
+                  onPress={() => removeFaveOnPress(session.id, removeFaveSession)}
+                  title="Remove From Faves"
+                  color="#841584"
+                  accessibilityLabel="Remove From Faves"
+                />
+              </View> : <View>
+                  <Button
+                    onPress={() => addFavesOnPress(session.id, createFaveSession)}
+                    title="Add To Faves"
+                    color="#841584"
+                    accessibilityLabel="Add to Faves"
+                  />
+                </View>
+            }
+
+
           </View>
 
         )
