@@ -1,17 +1,10 @@
 //stateless markup only
 
-import React, { Component, Fragment } from 'react';
-import {
-  SafeAreaView,
-  StyleSheet,
-  ScrollView,
-  View,
-  Text,
-  StatusBar,
-} from 'react-native';
+import React from 'react';
+
 import MapView from 'react-native-maps';
-import Marker from 'react-native-maps';
-const Map = ({ allConducts }) => {
+
+const Map = () => {
   return (
     <MapView
       style={{ flex: 1 }}
