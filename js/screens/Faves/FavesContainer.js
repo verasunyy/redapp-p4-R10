@@ -10,7 +10,7 @@ import {
   StatusBar,
 } from 'react-native';
 
-
+import { typography } from '../../config/styles'
 import Faves from './Faves'
 import FavesContext from '../../context/FavesContext';
 import { gql } from "apollo-boost";
@@ -38,6 +38,12 @@ const GET_All_SESSIONS = gql`
 class FavesContainer extends Component {
   static navigationOptions = {
     title: 'Faves',
+    headerTintColor: '#fff',
+    headerTitleStyle: {
+      fontWeight: '500',
+      fontSize: 22,
+      fontFamily: typography.fontMain,
+    },
   };
   render() {
 
@@ -46,7 +52,7 @@ class FavesContainer extends Component {
         {
           ({ faveIds }) => {
 
-            if (faveIds.faveIds.length !== 0) {
+            if (faveIds.length !== 0) {
               return (
                 < Query query={GET_All_SESSIONS} >
                   {({ loading, error, data }) => {
@@ -54,7 +60,7 @@ class FavesContainer extends Component {
                     if (error) return <Text>{error.message}</Text>;
 
                     const favedSessions = data.allSessions.filter((session) => (
-                      faveIds.faveIds.find((faveId) => faveId === session.id)
+                      faveIds.find((faveId) => faveId === session.id)
                     ))
                     console.log(favedSessions)
                     return (<Faves allFavedSessions={favedSessions} />);

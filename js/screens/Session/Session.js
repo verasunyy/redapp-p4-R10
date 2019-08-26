@@ -1,13 +1,10 @@
 //stateless markup only
 
-import React, { Component, Fragment } from 'react';
+import React from 'react';
 import {
-  SafeAreaView,
   StyleSheet,
-  ScrollView,
   View,
   Text,
-  StatusBar,
   Image,
   TouchableOpacity,
   Button
@@ -16,66 +13,73 @@ import styles from './styles';
 import { withNavigation } from 'react-navigation';
 import FavesContext from '../../context/FavesContext';
 import Icon from 'react-native-vector-icons/FontAwesome';
+import moment from 'moment'
+import LinearGradient from 'react-native-linear-gradient';
 
-
-
-const Session = ({ session, speaker, navigation, isFaved }) => {
+const Session = ({ session, navigation }) => {
   const removeFaveOnPress = (id, removeFaveSession) => {
     removeFaveSession(id);
-    isFaved = false;
   }
   const addFavesOnPress = (id, createFaveSession) => {
     createFaveSession(id);
-    isFaved = true;
   }
   return (
     <FavesContext.Consumer>
       {
-        ({ createFaveSession, removeFaveSession }) => (
-          <View>
-            {/* {console.log(isFaved)} */}
-            <Text>{session.location}</Text>
-            {(isFaved) ? <Icon name="heart" size={30} color="#900" /> : null}
-            <Text>{session.title}</Text>
-            <Text>{session.time}</Text>
-            <Text>{session.description}</Text>
-            <Text>Presented by: </Text>
+        ({ faveIds, createFaveSession, removeFaveSession }) => (
+          <View style={styles.container}>
+            <View style={styles.faveContainer}>
+              <Text style={styles.location}>{session.location}</Text>
+              {faveIds.includes(session.id) ? <Icon name="heart" size={15} color="#cf392a" /> : null}
+            </View>
+            <Text style={styles.title}>{session.title}</Text>
+            <Text style={styles.time}>{moment(session.time).format('LT')}</Text>
+            <Text style={styles.text}>{session.description}</Text>
+            <Text style={styles.presentedBy}>Presented by: </Text>
             <TouchableOpacity onPress={() => {
               navigation.navigate('Speaker', {
-                speaker: speaker
+                speaker: session.speaker
               })
-            }} activeOpacity={0.5} >
-              <View>
-                <Image style={styles.image} source={{ uri: speaker.image }} />
-                <Text>{speaker.name}</Text>
-              </View>
+            }} activeOpacity={0.5}
+              style={styles.speakerContainer}>
+              <Image style={styles.image} source={{ uri: session.speaker.image }} />
+              <Text style={styles.speakerName}>{session.speaker.name}</Text>
             </TouchableOpacity>
-
-            {
-              (isFaved) ? <View>
-                <Button
-                  onPress={() => removeFaveOnPress(session.id, removeFaveSession)}
-                  title="Remove From Faves"
-                  color="#841584"
-                  accessibilityLabel="Remove From Faves"
-                />
-              </View> : <View>
-                  <Button
+            <View style={styles.devider} />
+            <View style={styles.addFaveContainer}>
+              {
+                faveIds.includes(session.id) ?
+                  <TouchableOpacity
+                    onPress={() => removeFaveOnPress(session.id, removeFaveSession)}
+                    style={styles.buttonContainer}
+                    activeOpacity={0.5}
+                  >
+                    <LinearGradient
+                      colors={['#9963ea', '#8797D6']}
+                      start={{ x: 0.0, y: 1.0 }}
+                      end={{ x: 1.0, y: 0.0 }}
+                      style={[StyleSheet.absoluteFill, styles.button]}
+                    />
+                    <Text style={styles.buttonText}>Remove From Faves</Text>
+                  </TouchableOpacity> :
+                  <TouchableOpacity
                     onPress={() => addFavesOnPress(session.id, createFaveSession)}
-                    title="Add To Faves"
-                    color="#841584"
-                    accessibilityLabel="Add to Faves"
-                  />
-                </View>
-            }
-
-
+                    style={styles.buttonContainer}
+                    activeOpacity={0.5}
+                  >
+                    <LinearGradient
+                      colors={['#9963ea', '#8797D6']}
+                      start={{ x: 0.0, y: 1.0 }}
+                      end={{ x: 1.0, y: 0.0 }}
+                      style={[StyleSheet.absoluteFill, styles.button]}
+                    />
+                    <Text style={styles.buttonText}>Add To Faves</Text>
+                  </TouchableOpacity>
+              }
+            </View>
           </View>
-
         )
       }
-
-
     </FavesContext.Consumer>
   )
 }

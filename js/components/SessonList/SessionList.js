@@ -1,16 +1,18 @@
 import React from 'react';
-import { Text, SectionList } from 'react-native';
-import Session from '../Session/Session';
+import { View, Text, SectionList } from 'react-native';
+import SingleSession from '../SingleSession';
 import moment from 'moment';
-moment().format();
+import styles from './styles'
+
 const SessionsList = ({ sessions }) => (
   <SectionList
-    renderItem={({ item }) => <Session item={item} />}
+    renderItem={({ item }) => <SingleSession item={item} />}
     renderSectionHeader={({ section: { title } }) => (
-      <Text style={{ fontWeight: 'bold' }}>{moment(title).format('LT')}</Text>
+      <Text style={styles.header}>{moment(title).format('LT')}</Text>
     )}
     sections={sessions}
     keyExtractor={(item) => item.id + ""}
+    ItemSeparatorComponent={() => <View style={styles.itemSeperator} />}
   />
 );
 
