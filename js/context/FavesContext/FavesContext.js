@@ -23,8 +23,8 @@ class FavesProvider extends Component {
     try {
       const newFave = await createFave(sessionId);
       if (newFave) this.setState({ faveIds: [...this.state.faveIds, newFave] })
-      console.log("context", this.state.faveIds)
       this.getFavedSessionIds()
+      console.log("context", this.state.faveIds)
     } catch (e) {
       throw e
     }

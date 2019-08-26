@@ -37,15 +37,17 @@ const Session = ({ session, navigation }) => {
             <Text style={styles.time}>{moment(session.time).format('LT')}</Text>
             <Text style={styles.text}>{session.description}</Text>
             <Text style={styles.presentedBy}>Presented by: </Text>
-            <TouchableOpacity onPress={() => {
-              navigation.navigate('Speaker', {
-                speaker: session.speaker
-              })
-            }} activeOpacity={0.5}
-              style={styles.speakerContainer}>
-              <Image style={styles.image} source={{ uri: session.speaker.image }} />
-              <Text style={styles.speakerName}>{session.speaker.name}</Text>
-            </TouchableOpacity>
+            {(session.speaker) ?
+              <TouchableOpacity onPress={() => {
+                navigation.navigate('Speaker', {
+                  speaker: session.speaker
+                })
+              }} activeOpacity={0.5}
+                style={styles.speakerContainer}>
+                <Image style={styles.image} source={{ uri: session.speaker.image }} />
+                <Text style={styles.speakerName}>{session.speaker.name}</Text>
+              </TouchableOpacity>
+              : null}
             <View style={styles.devider} />
             <View style={styles.addFaveContainer}>
               {
