@@ -10,27 +10,48 @@ import {
   StatusBar,
   Image,
   TouchableOpacity,
-  Button
+  Button,
+  Linking
 } from 'react-native';
 
 import styles from './styles';
 import { withNavigation } from 'react-navigation';
+import LinearGradient from 'react-native-linear-gradient';
 
 const Speaker = ({ speaker, navigation }) => {
+  const openLink = (url) => (Linking.openURL(url).catch((err) => console.error('An error occurred', err))
+  )
   return (
-    <SafeAreaView style={{ flex: 1, backgroundColor: "#000" }}>
+    <SafeAreaView style={styles.container}>
       {/* <View style={styles.background}> */}
-      <TouchableOpacity onPress={() => {
-        navigation.goBack()
-      }} activeOpacity={0.5} ><Text style={styles.exit}>X</Text></TouchableOpacity>
-
-      <Text style={styles.title}>About The Speaker</Text>
-      <View style={styles.background}>
-        <Image style={styles.image} source={{ uri: speaker.image }} />
-        <Text>{speaker.name}</Text>
-        <Text>{speaker.bio}</Text>
-        {/* <Button></Button> */}
+      <View style={styles.header}>
+        <TouchableOpacity onPress={() => {
+          navigation.goBack()
+        }} activeOpacity={0.5} ><Text style={styles.exit}>X</Text></TouchableOpacity>
+        <View style={styles.titleWrapper}>
+          <Text style={styles.title}>About The Speaker</Text>
+        </View>
       </View>
+      <ScrollView style={styles.background}>
+        <View style={styles.content}>
+          <Image style={styles.image} source={{ uri: speaker.image }} />
+          <Text style={styles.name}>{speaker.name}</Text>
+          <Text style={styles.bio}>{speaker.bio}</Text>
+          <TouchableOpacity
+            onPress={() => openLink(speaker.url)}
+            style={styles.buttonContainer}
+            activeOpacity={0.5}
+          >
+            <LinearGradient
+              colors={['#9963ea', '#8797D6']}
+              start={{ x: 0.0, y: 1.0 }}
+              end={{ x: 1.0, y: 0.0 }}
+              style={[StyleSheet.absoluteFill, styles.buttonBackground]}
+            />
+            <Text style={styles.buttonText}>Read More on Wikipedia</Text>
+          </TouchableOpacity>
+        </View>
+      </ScrollView>
       {/* </View> */}
     </SafeAreaView>
   )
