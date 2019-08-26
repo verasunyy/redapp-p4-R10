@@ -40,8 +40,8 @@ Google-map: add API Key to android/app/src/main/androidManifest.xml
 
 ## IOS
 
-![alt text][readmescreenshot/p4-r10-screenshot.gif]
+![ios screenshot](readmescreenshot/p4-r10-screenshot.gif)
 
 ## Android
 
-![alt text][readmescreenshot/p4-r10-android-screenshot.gif]
+![andoid screenshot](readmescreenshot/p4-r10-android-screenshot.gif)
