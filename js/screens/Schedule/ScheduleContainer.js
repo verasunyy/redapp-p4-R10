@@ -15,7 +15,7 @@ import Schedule from './Schedule'
 import { gql } from "apollo-boost";
 import { Query } from 'react-apollo';
 import FavesContext from '../../context/FavesContext'
-
+import { typography } from '../../config/styles'
 
 const GET_All_SESSIONS = gql`
   {
@@ -39,6 +39,12 @@ const GET_All_SESSIONS = gql`
 class ScheduleContainer extends Component {
   static navigationOptions = {
     title: 'Schedule',
+    headerTintColor: '#fff',
+    headerTitleStyle: {
+      fontWeight: '500',
+      fontSize: 22,
+      fontFamily: typography.fontMain,
+    },
   };
 
   render() {
