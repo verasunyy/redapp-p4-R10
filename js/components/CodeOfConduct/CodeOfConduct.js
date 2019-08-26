@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { View, Text, TouchableOpacity, Animated, Easing } from 'react-native';
 import styles from './styles';
+import PropTypes from 'prop-types';
 
 class CodeOfConduct extends Component {
   constructor(props) {
@@ -50,5 +51,10 @@ class CodeOfConduct extends Component {
     );
   }
 }
-
+CodeOfConduct.protoTypes = {
+  conduct: PropTypes.shape({
+    title: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+  })
+}
 export default CodeOfConduct;

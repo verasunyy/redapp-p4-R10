@@ -1,20 +1,11 @@
 //stateful logic and state
-import React, { Component, Fragment } from 'react';
-
+import React, { Component } from 'react';
 import {
-  SafeAreaView,
-  StyleSheet,
-  ScrollView,
-  View,
   Text,
-  StatusBar,
 } from 'react-native';
-
-
 import Schedule from './Schedule'
 import { gql } from "apollo-boost";
 import { Query } from 'react-apollo';
-import FavesContext from '../../context/FavesContext'
 import { typography } from '../../config/styles'
 
 const GET_All_SESSIONS = gql`

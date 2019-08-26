@@ -31,7 +31,6 @@ class AboutContainer extends Component {
     },
   };
   render() {
-    console.log(this.props)
     return (
       <Query query={GET_All_CONDUCTS}>
         {({ loading, error, data }) => {

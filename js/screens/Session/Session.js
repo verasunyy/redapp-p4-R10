@@ -15,6 +15,7 @@ import FavesContext from '../../context/FavesContext';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import moment from 'moment'
 import LinearGradient from 'react-native-linear-gradient';
+import PropTypes from 'prop-types';
 
 const Session = ({ session, navigation }) => {
   const removeFaveOnPress = (id, removeFaveSession) => {
@@ -82,6 +83,14 @@ const Session = ({ session, navigation }) => {
       }
     </FavesContext.Consumer>
   )
+}
+Session.protoTypes = {
+  session: PropTypes.shape({
+    id: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    location: PropTypes.string.isRequired,
+  }),
+  navigation: PropTypes.object.isRequired
 }
 
 export default withNavigation(Session)

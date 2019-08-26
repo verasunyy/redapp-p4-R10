@@ -1,23 +1,16 @@
 //stateless markup only
 
-import React, { Component, Fragment } from 'react';
+import React from 'react';
 import {
-  SafeAreaView,
-  StyleSheet,
-  ScrollView,
-  View,
   Text,
-  StatusBar,
 } from 'react-native';
 import { formatSessionData } from '../../lib/helper'
 import SessionsList from '../../components/SessonList/SessionList';
-
+import PropTypes from 'prop-types';
 
 const Faves = ({ allFavedSessions }) => {
-  console.log('favedData', allFavedSessions)
   if (!!allFavedSessions) {
     const sortedSessions = formatSessionData(allFavedSessions);
-    console.log('faved true')
     return (
       <SessionsList sessions={sortedSessions} />
     )
@@ -25,8 +18,8 @@ const Faves = ({ allFavedSessions }) => {
   else {
     return <Text>No Faved Session</Text>
   }
-
-
 }
-
+Faves.protoTypes = {
+  allFavedSessions: PropTypes.object.isRequired
+}
 export default Faves

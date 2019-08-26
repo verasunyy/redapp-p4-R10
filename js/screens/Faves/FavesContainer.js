@@ -1,13 +1,8 @@
 //stateful logic and state
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 
 import {
-  SafeAreaView,
-  StyleSheet,
-  ScrollView,
-  View,
   Text,
-  StatusBar,
 } from 'react-native';
 
 import { typography } from '../../config/styles'
@@ -62,13 +57,11 @@ class FavesContainer extends Component {
                     const favedSessions = data.allSessions.filter((session) => (
                       faveIds.find((faveId) => faveId === session.id)
                     ))
-                    console.log(favedSessions)
                     return (<Faves allFavedSessions={favedSessions} />);
                   }
                   }
                 </ Query>)
             } else {
-              console.log(faveIds.faveIds)
               return <Faves />
             }
           }}

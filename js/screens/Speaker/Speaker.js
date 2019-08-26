@@ -1,19 +1,17 @@
 //stateless markup only
 
-import React, { Component, Fragment } from 'react';
+import React from 'react';
 import {
   SafeAreaView,
   StyleSheet,
   ScrollView,
   View,
   Text,
-  StatusBar,
   Image,
   TouchableOpacity,
-  Button,
   Linking
 } from 'react-native';
-
+import PropTypes from 'prop-types';
 import styles from './styles';
 import { withNavigation } from 'react-navigation';
 import LinearGradient from 'react-native-linear-gradient';
@@ -55,6 +53,14 @@ const Speaker = ({ speaker, navigation }) => {
       {/* </View> */}
     </SafeAreaView>
   )
+}
+Speaker.protoTypes = {
+  speaker: PropTypes.shape({
+    image: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    bio: PropTypes.string.isRequired,
+  }),
+  navigation: PropTypes.object.isRequired
 }
 
 export default withNavigation(Speaker)
