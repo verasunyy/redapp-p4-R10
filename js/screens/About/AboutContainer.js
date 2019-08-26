@@ -1,18 +1,14 @@
 //stateful logic and state
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import Loader from '../../components/Loader';
 import {
-  SafeAreaView,
-  StyleSheet,
-  ScrollView,
-  View,
   Text,
-  StatusBar,
 } from 'react-native';
 
 import { gql } from "apollo-boost";
 import { Query } from 'react-apollo';
 import About from './About'
+import { typography } from '../../config/styles'
 
 const GET_All_CONDUCTS = gql`
   {
@@ -27,6 +23,12 @@ const GET_All_CONDUCTS = gql`
 class AboutContainer extends Component {
   static navigationOptions = {
     title: 'About',
+    headerTintColor: '#fff',
+    headerTitleStyle: {
+      fontWeight: '500',
+      fontSize: 22,
+      fontFamily: typography.fontMain,
+    },
   };
   render() {
     console.log(this.props)

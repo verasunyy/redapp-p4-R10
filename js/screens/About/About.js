@@ -1,42 +1,28 @@
-//stateless markup only
-
-import React, { Component, Fragment } from 'react';
+import React from 'react';
 import {
-  SafeAreaView,
-  StyleSheet,
   ScrollView,
   View,
   Text,
-  StatusBar,
-  Image
+  Image,
 } from 'react-native';
 import styles from './styles'
-
-const ConductTitle = ({ conductTitle }) => {
-  return (
-    <Text>+   {conductTitle}</Text>
-  )
-}
-const ConductDescription = ({ conductDescription }) => {
-  return (
-    <Text>{conductDescription}</Text>
-  )
-}
+import CodeOfConduct from '../../components/CodeOfConduct'
 
 const About = ({ allConducts }) => {
   return (
-    <ScrollView keyboardDismissMode="interactive">
-      <Image style={styles.image} source={require('../../../js/assets/images/r10_logo.png')} />
-      <Text>R10 is a conference that docuses on just about any topic related to dev.</Text>
-      <Text>Date & Venue</Text>
-      <Text>The R10 conference will take place on Tuesday, June 29, 2017 in Vancouver, BC</Text>
-      <Text>Conde of Conduct</Text>
-      {allConducts.map((conduct) => (
-        <View key={conduct.id}>
-          <ConductTitle conductTitle={conduct.title} />
-          <ConductDescription conductDescription={conduct.description} />
+    <ScrollView >
+      <View style={styles.container}>
+        <View style={styles.imageContainer}>
+          <Image style={styles.image} source={require('../../../js/assets/images/r10_logo.png')} />
         </View>
-      ))}
+        <Text style={styles.text}>R10 is a conference that focuses on just about any topic related to dev.</Text>
+        <Text style={styles.title}>Date & Venue</Text>
+        <Text style={styles.text}>The R10 conference will take place on Tuesday, June 29, 2017 in Vancouver, BC</Text>
+        <Text style={styles.title}>Conde of Conduct</Text>
+        {allConducts.map((conduct) => (
+          <CodeOfConduct conduct={conduct} key={conduct.id} />
+        ))}
+      </View>
     </ScrollView>
   )
 }
